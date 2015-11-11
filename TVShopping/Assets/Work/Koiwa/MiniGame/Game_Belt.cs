@@ -82,6 +82,9 @@ public class Game_Belt : MonoBehaviour
         {
             targetCamera = Camera.main;
         }
+        _score_text.GetComponent<Text>();
+        _time_text.GetComponent<Text>();
+
         _score_text.text = "体脂肪率：" + _body_fat_per + "％";
         _time_text.text = "残り：" + _time_limit + "秒";
     }
